@@ -1,0 +1,6 @@
+Item,Quantity,Description
+Arduino Uno,1,Microcontroller board
+LDR Light Sensor Module,1,Photoresistor module with digital/analog output
+Servo Motor (SG90),1,Micro servo for pressing spacebar/jump action
+Jumper Wires (Male-Male),6,Connect Arduino to LDR module and servo
+USB Cable (Type A to B),1,Power and programming for Arduino Uno
