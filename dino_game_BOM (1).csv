@@ -1,6 +1,6 @@
-Item,Quantity,Description
-Arduino Uno,1,Microcontroller board
-LDR Light Sensor Module,1,Photoresistor module with digital/analog output
-Servo Motor (SG90),1,Micro servo for pressing spacebar/jump action
-Jumper Wires (Male-Male),6,Connect Arduino to LDR module and servo
-USB Cable (Type A to B),1,Power and programming for Arduino Uno
+Item,Quantity,Description,Link
+Arduino Uno,1,Microcontroller board,https://ampflick.com/product/arduino-uno-with-atmega328p-ic/
+LDR Light Sensor Module,1,Photoresistor module with digital/analog output,https://ampflick.com/product/ky-018-ldr-light-sensor-module-in-pakistan/
+Servo Motor (SG90),1,Micro servo for pressing spacebar/jump action,https://ampflick.com/product/towerpro-sg90-sg-90-180-degree-servo-motor-in-pakistan/
+Jumper Wires (Male-Male),6,Connect Arduino to LDR module and servo,https://ampflick.com/product/male-to-female-breadboard-jumper-wires-2-5mm-40pcs-price-in-pakistan/
+USB Cable (Type A to B),1,Power and programming for Arduino Uno,https://ampflick.com/product/usb-type-a-male-to-usb-micro-type-b-male-connector-programming-cable/
