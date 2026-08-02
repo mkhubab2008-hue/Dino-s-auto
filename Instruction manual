@@ -1,0 +1,7 @@
+First tape the LDR to the screen of the monitor so that it sits just ahead of where your dino is on the screen.
+Connect the LDR's GND to the Arduino's gnd and connect the LDR's vcc to the 5v pin on the Arduino.
+Now connect the LDR's analog output pin to the A0 pin on the Arduino.
+Connect the vcc and GND of the servo to the 5v and GND pin on the Arduino respectively 
+Connect the signal wire to the Digital pin 8
+Configure the code such that everytime the pixels on the screen turn dark because of an obstacle entering the Dino's path 
+the areuino sends a high signal to the servo which pressed the space bar at judt the right time and voila
