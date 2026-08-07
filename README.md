@@ -47,7 +47,7 @@ This project consists of:
 
 
 
-###Instruction manual
+### Instruction manual
 First tape the LDR to the screen of the monitor so that it sits just ahead of where your dino is on the screen.
 Connect the LDR's GND to the Arduino's gnd and connect the LDR's vcc to the 5v pin on the Arduino.
 Now connect the LDR's analog output pin to the A0 pin on the Arduino.
