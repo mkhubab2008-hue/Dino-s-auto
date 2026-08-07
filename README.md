@@ -55,3 +55,33 @@ Connect the vcc and GND of the servo to the 5v and GND pin on the Arduino respec
 Connect the signal wire to the Digital pin 8
 Configure the code such that everytime the pixels on the screen turn dark because of an obstacle entering the Dino's path 
 the arduino sends a high signal to the servo which pressed the space bar at judt the right time and voila.
+
+
+# Programming
+This project uses c++ as the only programming langauge. 
+The IDE used is Arduino IDE.
+The Board is an arduino UNO with a baud rate of 9600.
+The primary method for choosing the threshold at which the uno sends a high signal to the servo is just trial error you should see what works best for you i personally used >330 
+I the servo.h . It lets your board send precise pulse-width signals to position a motor at a specific angle without requiring you to write complex timer code.
+
+# Code
+#include <Servo.h>
+Servo myservo;
+int light;
+
+void setup() {
+  pinMode(8, OUTPUT);
+  myservo.attach(8);
+  Serial.begin(9600);
+}
+
+void loop() {
+  light = analogRead(A0);
+  if (light > 330) {
+    myservo.write(90);
+  }
+  else {
+    myservo.write(0);
+  }
+  Serial.println(light);
+}
