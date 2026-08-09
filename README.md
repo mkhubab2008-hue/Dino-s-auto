@@ -43,8 +43,7 @@ This project consists of:
 | SG90 Servo | Orange/Yellow (PWM)| Arduino Uno | Digital Pin 8 (D8) | Servo PWM position control signal |
 
 # Wiring diagram
-<img width="1600" height="1453" alt="image" src="https://github.com/user-attachments/assets/8c86e52b-4628-476e-a33e-e8f387c42153" />
-
+<img width="1072" height="493" alt="WhatsApp Image 2026-08-09 at 10 24 52 PM" src="https://github.com/user-attachments/assets/d790e34f-a00d-4a36-8c34-0bc47472de62" />
 
 
 ### Instruction manual
